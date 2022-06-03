@@ -7,8 +7,23 @@
   },
   "Post": {
     "title": { "string": {} },
+    "likes": { "int": { "min": 0, "max": 1000000 } },
     "comments": {
       "hasMany": "Comment"
+    },
+
+    "createdAt": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
+    },
+
+    "fileURL": {
+      "string": [
+        "pexels-mikhail-nilov-6740275.mp4",
+        "pexels-mikhail-nilov-6740275.mp4"
+      ]
     }
   },
   "Comment": {
