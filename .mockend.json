@@ -1,11 +1,13 @@
 {
   "User": {
+    "id": { "string": {} },
     "title": { "string": {} },
     "avatar": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     }
   },
   "Post": {
+    "id": { "string": {} },
     "likes": { "int": { "min": 0, "max": 1000000 } },
     "comments": {
       "hasMany": "Comment"
