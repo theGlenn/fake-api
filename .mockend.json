@@ -6,7 +6,6 @@
     }
   },
   "Post": {
-    "title": { "string": {} },
     "likes": { "int": { "min": 0, "max": 1000000 } },
     "comments": {
       "hasMany": "Comment"
@@ -21,9 +20,17 @@
 
     "fileURL": {
       "string": [
-        "pexels-mikhail-nilov-6740275.mp4",
-        "pexels-mikhail-nilov-6740275.mp4"
+        "https://cdn.jsdelivr.net/gh/theGlenn/fake-api@master/pexels-c-technical-5822768.mp4",
+        "https://cdn.jsdelivr.net/gh/theGlenn/fake-api@master/pexels-cottonbro-5329613.mp4",
+        "https://cdn.jsdelivr.net/gh/theGlenn/fake-api@master/pexels-cottonbro-8177716.mp4",
+        "https://cdn.jsdelivr.net/gh/theGlenn/fake-api@master/pexels-mikhail-nilov-6507686.mp4",
+        "https://cdn.jsdelivr.net/gh/theGlenn/fake-api@master/pexels-mikhail-nilov-6740275.mp4",
+        "https://cdn.jsdelivr.net/gh/theGlenn/fake-api@master/pexels-rodnae-productions-8034413.mp4"
       ]
+    },
+
+    "author": {
+      "belongsTo": "User"
     }
   },
   "Comment": {
