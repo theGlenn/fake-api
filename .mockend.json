@@ -2,9 +2,11 @@
   "User": {
     "id": { "string": {} },
     "name": { "string": {} },
-    "avatar": [
-      "https://i.pravatar.cc/150"
-    ]
+    "avatar": {
+      "string": [
+        "https://i.pravatar.cc/150"
+      ]
+    }
   },
   "Post": {
     "id": { "string": {} },
