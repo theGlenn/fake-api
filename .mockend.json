@@ -3,7 +3,7 @@
     "id": { "string": {} },
     "name": { "string": {} },
     "avatar": [
-      "https://i.pravatar.cc/150",
+      "https://i.pravatar.cc/150"
     ]
   },
   "Post": {
