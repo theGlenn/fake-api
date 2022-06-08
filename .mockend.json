@@ -4,7 +4,15 @@
     "name": { "string": {} },
     "avatar": {
       "string": [
-        "https://i.pravatar.cc/150"
+        "https://i.pravatar.cc/150?img=49",
+        "https://i.pravatar.cc/150?img=55",
+        "https://i.pravatar.cc/150?img=59",
+        "https://i.pravatar.cc/150?img=62",
+        "https://i.pravatar.cc/150?img=64",
+        "https://i.pravatar.cc/150?img=51",
+        "https://i.pravatar.cc/150?img=50",
+        "https://i.pravatar.cc/150?img=35",
+        "https://i.pravatar.cc/150?img=17"
       ]
     }
   },
